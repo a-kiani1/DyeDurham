@@ -1,0 +1,8 @@
+install:
+  - nuget restore
+  - ps: Install-Product 'NET Core SDK' -Version 8.0.200
+# Build configuration
+build:
+  # Specify the solution file or project file to build
+
+test:
